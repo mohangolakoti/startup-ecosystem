@@ -1,0 +1,134 @@
+/* Basic styling for the landing page components */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background: linear-gradient(to right,rgb(30, 30, 134), rgb(14, 13, 13));
+
+  }
+  nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    color: white;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  nav ul li {
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: medium;
+  }
+  
+  nav .btn {
+    background-color: transparent;
+    padding: 12px 20px;
+    border-radius: 7px;
+    margin-right: 10px;
+    margin-top: 10px;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    font-size: medium;
+  }
+
+  nav .btn1 {
+    background-color: #ff5100;
+    border: none;
+    margin-right: 0;
+  }
+
+  nav .logo{
+    color: white;
+    text-decoration: none;
+    margin-top: 10px;
+    font-size: large;
+    font-weight: bold;
+  }
+
+  .hero {
+    text-align: center;
+    height: 100vh;
+    background: linear-gradient(to right,rgb(30, 30, 134), rgb(14, 13, 13));
+    background-size: cover;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+  }
+  .hero-text{
+    margin-top: 170px;
+    line-height: 20px;
+  }
+  .hero-text h1{
+    padding: 5px;
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  .hero-text p{
+    padding-bottom: 30px;
+    font-size: 1rem;
+    font-weight:550;
+  }
+  .text-high{
+    color: #ff5100;
+  }
+
+  .cta1 {
+    background-color: #ff5100;
+    color: #fff;
+    padding: 12px 29px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+    margin: 10px;
+    font-size: large;
+    font-weight: 450;
+  }
+  .cta2{
+    background-color: transparent;
+    color: white;
+    padding: 12px 20px;
+    border: 1px solid white;
+  }
+  .cta2:hover{
+    background-color: #107dea;
+    border: none;
+  }
+
+
+  .features, .how-it-works, .testimonials, .pricing, .about-us, .contact {
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .feature-list, .steps, .testimonial-list, .pricing-tiers, .team {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .feature, .step, .testimonial, .tier, .team-member {
+    margin: 15px;
+    flex: 1 1 300px;
+  }
+  
+  footer {
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .quick-links, .legal-links, .newsletter, .social-media {
+    margin-bottom: 20px;
+  }
+  
